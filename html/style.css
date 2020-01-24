@@ -4,27 +4,102 @@ li {
 }
 
 #top {
-    box-sizing: border-box;
+    margin: 0px;
+    float: left;
+}
+
+#top2 {
+    float: right;
+}
+
+#top3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-left: 100px;
+}
+
+#top2 a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+#top2 li {
+    position: float left;
+}
+
+#top a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+#top li {
+    position: float left;
 }
 
 #buttons {
     position: relative;
     bottom: -125px;
     display: block;
-    margin-left: 37.5%;
+    margin-left: 40%;
     margin-right: auto;
 }
 
 #nav li {
-    position: float;
+    margin: auto -40px;
+    position: float left;
     width: 14%;
+}
+
+.set2 {
+    margin: auto -500px;
+    float: right;
+}
+
+.set3 {
+    margin: auto 25px;
+    float: right;
+    display: inline-flex;
+}
+
+.l1 {
+    padding-inline-start: 0px;
+    justify-content: flex-start;
+    margin-block-end: 0px !important;
+    margin-block-start: 0px !important;
+}
+
+.l2 {
+    justify-content: flex-end;
+    margin-block-end: 0px !important;
+    margin-block-start: 0px !important;
+}
+
+#nav a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+#textinput {
+    position: relative;
+    bottom: -145px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 50px;
     background-color: #f2f2f2;
 }
 
@@ -34,5 +109,4 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15.15%;
 }
